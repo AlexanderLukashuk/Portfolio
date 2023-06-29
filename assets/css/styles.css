@@ -133,7 +133,7 @@ a {
 @media screen and (max-width: 767px) {
     .nav__menu {
         position: fixed;
-        bottom: 0;
+        bottom: -100%;
         left: 0;
         width: 100%;background-color: var(--body-color);
         padding: 2rem 1.5rem 4rem;
@@ -176,4 +176,8 @@ a {
 
 .nav__close:hover {
     color: var(--first-color);
+}
+
+.show-menu {
+    bottom: 0;
 }
