@@ -181,3 +181,7 @@ a {
 .show-menu {
     bottom: 0;
 }
+
+.section {
+    padding: 2rem 0 4rem;
+}
