@@ -635,3 +635,8 @@ a {
     opacity: 1;
     visibility: visible;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
