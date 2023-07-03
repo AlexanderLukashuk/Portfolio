@@ -771,3 +771,7 @@ img {
 .testimonial__icon-star {
     color: var(--first-color);
 }
+
+.swiper .swiper-pagination-testimonial {
+    bottom: 0;
+}
